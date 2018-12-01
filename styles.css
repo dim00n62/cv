@@ -1,0 +1,81 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    font-family: Lato;
+}
+
+article {
+    background-image: linear-gradient(#6594ff 0%, #c0dfff 50vh, #b78450 52vh, black 100vh);
+    width: 100%;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+section {
+    height: 100vh;
+    min-width: 100%;
+}
+
+.logo {
+    position: absolute;
+    margin-top: 50vh;
+    left: 20vw;
+}
+
+.author {
+    font-size: 48px;
+    color: white;
+    position: absolute;
+    bottom: 20vh;
+    right: 5vw;
+}
+
+.shadow {
+    transform: skewX(-40deg);
+    transform-origin: bottom;
+    color: black;
+    text-shadow: 0 0 2px;
+}
+
+.sun {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: #ffff7d;
+    border-radius: 100%;
+    box-shadow: 0 0 90px 100px #ffff00fa;
+    left: -50px;
+}
+
+.frontend {
+    font-family: Lato;
+    font-size: 128px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.blink {
+    position: absolute;
+    height: 60vh;
+    width: 500px;
+    box-shadow: 0 0 0 2000px #000000db;
+    background: linear-gradient(to right, #000000db 0%, transparent 50%, #000000db 100%);
+}
+
+.skills {
+    color: white;
+}
+
+li {
+    padding: 16px;
+    background-color: #e6e5e3;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    display: inline-block;
+    color: #484848;
+}
